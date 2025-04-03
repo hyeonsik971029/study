@@ -1,5 +1,5 @@
 func solution(_ n:Int) -> Int {
-    
+    // Int 범위 에러 발생해, 미리 1234567로 나눈 나머지를 저장
     func fibo(_ target: Int) -> Int {
         guard target > 1 else { return target }
         
